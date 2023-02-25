@@ -2,8 +2,7 @@ package com.driver.model;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name = "tripbooking")
+
 public class TripBooking {
 
     @Id

@@ -20,6 +20,15 @@ public class Customer {
     private List<TripBooking> tripBookingList = new ArrayList<>();
      //List of trip booking need to be mapped will do that later
 
+
+
+
+    public Customer(int customerId, String mobile, String password) {
+        this.customerId = customerId;
+        this.mobile = mobile;
+        this.password = password;
+    }
+
     public Customer() {
     }
 

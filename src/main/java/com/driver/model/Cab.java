@@ -14,6 +14,12 @@ public class Cab {
 
     private boolean available;
 
+    public Cab(int id, int perKmRate, boolean available) {
+        this.id = id;
+        this.perKmRate = perKmRate;
+        this.available = available;
+    }
+
     @OneToOne
     @JoinColumn
     private Driver driver;
